@@ -16,12 +16,18 @@
     
 }
 
+.gradient-background-2{
+    background: linear-gradient(30deg, #3d8bff, #25c3c3, #5c33bb);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
 
 .row{
     padding-top:  20px;
     padding-left: 50px;
+    padding-bottom: 30px;
     --bs-gutter-x: 0 !important;
-    
+        
 }
 
 
@@ -33,4 +39,15 @@
     .carousel-item {
         padding-top: 70px; 
     }
+}
+
+.card-body{
+    background-color: #81baba;
+    font-weight: bold;  
+} 
+
+.card.shadow-sm{
+    border: 0 !important;
+    padding: 10px;
+    background: transparent !important;
 }
