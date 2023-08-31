@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+}
+
+.card-container{
+    background-color: black;
+}
+
+.row{
+    background-color: blue;
+}
+
+.col{
+    background-color: brown;
+}

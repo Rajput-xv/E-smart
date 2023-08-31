@@ -22,6 +22,21 @@
     animation: gradient-animation 18s ease infinite;
 } */
 
+.sign-up a{
+    text-decoration: none;
+    color: #000;
+}
+
+.login a{
+    text-decoration: none;
+    color: white ;
+} 
+
+.login {
+    --bs-btn-hover-color: #000 ;
+    --bs-btn-hover-bg: black !important;
+}
+
 .row.heading{
     padding-top:  20px;
     padding-left: 50px;
