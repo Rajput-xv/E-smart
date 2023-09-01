@@ -33,7 +33,7 @@
 } 
 
 .login {
-    --bs-btn-hover-color: #000 ;
+    --bs-btn-hover-color: white !important;
     --bs-btn-hover-bg: black !important;
 }
 
@@ -78,3 +78,4 @@
     padding: 10px;
     background: transparent !important;
 }
+
