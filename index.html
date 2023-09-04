@@ -19,12 +19,13 @@
           <img src="./icons8-technology-64.svg" alt="E-smart logo" /> 
           E-Smart
         </a>
-        <button class="navbar-toggler nav-item dropdown d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="#offcanvas" aria-label="Toggle navigation">
+        <button class="navbar-toggler nav-item dropdown d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="#offcanvas"  aria-label="Toggle navigation"  >
           
-            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
               <span class="navbar-toggler-icon"></span>
             </a>
-            <ul class="dropdown-menu px-5 " aria-labelledby="navbarDropdown" >
+            
+            <ul class="dropdown-menu dropdown-menu-end px-5 box-1" aria-labelledby="navbarDropdown" >
               <li><a class="dropdown-item" href="./index.html">Home</a></li>
               <li><a class="dropdown-item" href="#product">Product</a></li>
               <li><a class="dropdown-item" href="#footer-about">Features</a></li>
@@ -37,7 +38,7 @@
         
        
         
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas" aria-labelledby="#offcanvasLabel">
+        <div class="offcanvas offcanvas-end col-lg-auto col-md-auto" tabindex="-1" id="#offcanvas" aria-labelledby="#offcanvasLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="#offcanvasLabel" >E-Smart</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -46,10 +47,21 @@
             <ul class="navbar-nav flex-grow-1 justify-content-between">
               <li class="nav-item"><a class="nav-link" href="./index.html">
                 <img src="./icons8-technology-64.svg" alt="E-smart logo" /> 
-
               </a></li>
+              
               <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#product">Product</a></li>
+              <li class="nav-item " id="product-nav" data-bs-toggle="dropdown" aria-expanded="false"><a class="nav-link p-0 " id="navbarDropdown-1" >
+                Product
+                <ul class="dropdown-menu product px-5 mt-0 pt-0" aria-labelledby="navbarDropdown" >
+                  <li><a class="dropdown-item" href="#">Smartphones</a></li>
+                  <li><a class="dropdown-item" href="#">Laptops</a></li>
+                  <li><a class="dropdown-item" href="#">Televisions</a></li>
+                  <li><a class="dropdown-item" href="#">Refrigerators</a></li>
+                  <li><a class="dropdown-item" href="#">DSLR Cameras</a></li>
+                  <li><a class="dropdown-item" href="#">Air Conditioners</a></li>
+                </ul>
+              </a></li>
+
               <li class="nav-item"><a class="nav-link" href="#footer-about">Features</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
               <!-- <li class="nav-item"><a class="nav-link" href="#">Support</a></li> -->
@@ -57,12 +69,18 @@
               <li class="nav-item"><a class="nav-link" href="./cart.html">
                 <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" width="24" height="30" fill="white"><circle cx="7" cy="22" r="2"/><circle cx="17" cy="22" r="2"/><path d="M5.654,5,5.391,2.938A3.328,3.328,0,0,0,2.087,0H0V3H2.087a.331.331,0,0,1,.326.3l1.5,11.759A3.327,3.327,0,0,0,7.217,18H20.4L23.974,5ZM18.112,15H7.217a.329.329,0,0,1-.325-.3L6.037,8h14Z"/></svg>
               </a></li>
-              <form class="col-12 col-lg-auto col-md-auto mb-3 mb-lg-0 me-lg-3 " role="search">
+              <!-- <form class="col-12 col-lg-auto col-md-auto mb-3 mb-lg-0 me-lg-3 " role="search">
                 <input type="search" class="form-control form-control-dark text-bg mt-1 mx-5 " placeholder="Search..." aria-label="Search">
+              </form> -->
+              <form class="col-12 col-lg-auto col-md-auto mb-3 me-lg-3">
+                <div class="input-group">
+                  <input type="search" class="form-control form-control-dark text-bg mt-1" placeholder="Search..." aria-label="Search">
+                  <!-- <button class="btn btn-dark" type="button">Search</button> -->
+                </div>
               </form>
       
               <div class="text-end  d-lg-flex align-items-center" >
-                <button type="button" class="btn login btn-outline-light me-2 col d-none d-lg-block btn-sm px-4" > <a href="./login.html" >  Login </a> </button>
+                <button type="button" class="btn login btn-outline-light me-2 col btn-sm px-4 m-2 mb-3 " > <a href="./login.html" >  Login </a> </button>
                 <!-- <button type="button" class="btn sign-up btn-warning  col d-none d-lg-block btn-sm " style="width: 100px;"><a href="./login.html" > Sign-up </a> </button> -->
               </div>
             </ul>

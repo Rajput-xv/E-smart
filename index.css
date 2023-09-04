@@ -22,6 +22,29 @@
     animation: gradient-animation 18s ease infinite;
 } */
 
+
+/* .navbar-toggler.nav-item.dropdown{
+    overflow: hidden;
+
+} */
+
+/* .dropdown-menu.box-1{
+     overflow: hidden; 
+     position: absolute;
+    right: 10px;
+} */
+
+
+.dropdown-menu.product {
+    position: absolute !important;
+    left: 190px !important;
+}
+
+#product-nav{
+    padding-top: 8.25px !important;
+}
+
+
 .sign-up a{
     text-decoration: none;
     color: #000;
