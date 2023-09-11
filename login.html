@@ -3,31 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login form</title>
+    <title>Login </title>
     <link rel="stylesheet" href="./login.css">
 </head>
 <body>
     <div class="wrapper">
-        <form action="">
-            <h1>Login </h1>
-            <div class="input-box">
-                <input type="text" placeholder="Username" required>
-            </div>
-            <div class="input-box">
-                <input type="password" placeholder="Password" required>
-            </div>
-            <div class="remember-forgot">
-                <label>
-                    <input type="checkbox">Remember me
-                </label>
-                <a href="#">Forgot password ?</a>
-            </div>
-            <button type="submit" class="btn">Login</button>
+        <div class="login-box">
+            <form action="">
+                <h1>Login </h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">Remember me
+                    </label>
+                    <a href="#">Forgot password ?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
 
-            <div class="register-link">
-                <p>Don't have an account?<a href="#">Register</a></p>
-            </div>
-        </form>
+                <div class="register-link">
+                    <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
+            </form>
+        </div>
+        
+        <div class="register-box" >
+            <form action="">
+                <h1>Registration </h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">I agree to terms & condition
+                    </label>
+                    <!-- <a href="#">Forgot password ?</a> -->
+                </div>
+                <button type="submit" class="btn">Register</button>
+
+                <div class="login-link">
+                    <p>Already have an account? <a href="#">Login</a></p>
+                </div>
+            </form>
+        </div>
+        
     </div>
 
 
