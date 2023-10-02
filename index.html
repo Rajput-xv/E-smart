@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title >E-smart</title>
+
+    <title > E-smart</title>
+    <link rel="website icon" type="png" href="./icons8-technology-64.svg" >
     <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
@@ -29,9 +31,11 @@
               <li><a class="dropdown-item" href="./index.html">Home</a></li>
               <li><a class="dropdown-item" href="#product">Product</a></li>
               <li><a class="dropdown-item" href="#footer-about">Features</a></li>
-              <li><a class="dropdown-item" href="#">Pricing</a></li>
+              <!-- <li><a class="dropdown-item" href="#">Pricing</a></li> -->
               <!-- <li><a class="dropdown-item" href="#">Support</a></li> -->
               <li><a class="dropdown-item" href="#footer-about">About</a></li>
+              <li><a class=""dropdown-item href="./login.html" >Login</a></li>
+              
             </ul>
           
         </button>
@@ -53,20 +57,20 @@
               <li class="nav-item product-li" id="product-nav" ><a class="nav-link p-0  " data-bs-toggle="dropdown"  id="navbarDropdown-1" role="button"  aria-expanded="false">
                 Product
                 <ul class="dropdown-menu product dropdown-menu-start px-5 mt-2 " aria-labelledby="navbarDropdown" >
-                  <li><a class="dropdown-item" href="#">Smartphones</a></li>
-                  <li><a class="dropdown-item" href="#">Laptops</a></li>
-                  <li><a class="dropdown-item" href="#">Televisions</a></li>
-                  <li><a class="dropdown-item" href="#">Refrigerators</a></li>
-                  <li><a class="dropdown-item" href="#">DSLR Cameras</a></li>
-                  <li><a class="dropdown-item" href="#">Air Conditioners</a></li>
+                  <li><a class="dropdown-item" href="#Smartphone">Smartphones</a></li>
+                  <li><a class="dropdown-item" href="#Laptop">Laptops</a></li>
+                  <li><a class="dropdown-item" href="#Television">Televisions</a></li>
+                  <li><a class="dropdown-item" href="#Refrigerator">Refrigerators</a></li>
+                  <li><a class="dropdown-item" href="#DSLR-Camera">DSLR Cameras</a></li>
+                  <li><a class="dropdown-item" href="#Air-Conditioner">Air Conditioners</a></li>
                 </ul>
               </a></li>
 
               <li class="nav-item"><a class="nav-link" href="#footer-about">Features</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li> -->
               <!-- <li class="nav-item"><a class="nav-link" href="#">Support</a></li> -->
               <li class="nav-item"><a class="nav-link" href="#footer-about">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="./cart.html">
+              <li id="cart" class="nav-item"><a class="nav-link" href="./cart.html">
                 <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" width="24" height="30" fill="white"><circle cx="7" cy="22" r="2"/><circle cx="17" cy="22" r="2"/><path d="M5.654,5,5.391,2.938A3.328,3.328,0,0,0,2.087,0H0V3H2.087a.331.331,0,0,1,.326.3l1.5,11.759A3.327,3.327,0,0,0,7.217,18H20.4L23.974,5ZM18.112,15H7.217a.329.329,0,0,1-.325-.3L6.037,8h14Z"/></svg>
               </a></li>
               <!-- <form class="col-12 col-lg-auto col-md-auto mb-3 mb-lg-0 me-lg-3 " role="search">
@@ -171,282 +175,478 @@
 
 
   
-  <section>
+  <section id="product-main">
 
-    <div class="album card-container  gradient-background-2 " id="product"  >
+    <div  class="album card-container  gradient-background-2 " id="product"  >
       <!-- bg-body-tertiary -->
-      <div class="container  " >
+      <div class="container  " id="product-sub" >
   
         <div class="pack-card row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 " >
-          <div class="col " >
+          <div class="col Smartphones" id="Smartphone" >
             <div class="card shadow-sm " >
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body ">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
+                    <button type="button" class="btn btn-sm ">Price</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div> -->
+                  <!-- <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
+                  
+                
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col Smartphones">
             <div class="card shadow-sm">
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col Smartphones">
             <div class="card shadow-sm">
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
   
-          <div class="col">
+          <div class="col Laptops" id="Laptop" >
             <div class="card shadow-sm">
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col Laptops">
             <div class="card shadow-sm">
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col Laptops">
             <div class="card shadow-sm">
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
   
-          <div class="col">
+          <div class="col Televisions" id="Televisions" >
             <div class="card shadow-sm">
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col Televisions">
             <div class="card shadow-sm">
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col Televisions">
             <div class="card shadow-sm">
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col " >
+
+          <div class="col Refrigerators" id="Refrigerator"  >
             <div class="card shadow-sm " >
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body ">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col " >
+          <div class="col Refrigerators" >
             <div class="card shadow-sm " >
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body ">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col " >
+          <div class="col Refrigerators" >
             <div class="card shadow-sm " >
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body ">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col " >
+
+          <div class="col DSLR-Cameras" id="DSLR-Camera">
             <div class="card shadow-sm " >
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body ">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col " >
+          <div class="col DSLR-Cameras" >
             <div class="card shadow-sm " >
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body ">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col " >
+          <div class="col DSLR-Cameras" >
             <div class="card shadow-sm " >
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body ">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col " >
+
+          <div class="col Air-Conditioners" id="Air-Conditioner">
             <div class="card shadow-sm " >
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body ">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col " >
+          <div class="col Air-Conditioners" >
             <div class="card shadow-sm " >
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body ">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
+                  
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
-          <div class="col " >
+          <div class="col Air-Conditioners" >
             <div class="card shadow-sm " >
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
               <div class="card-body ">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                  <h4>$ 1500</h4>
+                  <!-- <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                  <small class="text-body-secondary">9 mins</small>
+                  <small class="text-body-secondary">9 mins</small> -->
+                  <div class="star" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                    <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px">
+                  </div>
                 </div>
+                <button class="btn btn-sm ">
+                  <img src="./cart-add-buy-svgrepo-com.svg" height="35px" width="35px">
+                </button>
               </div>
             </div>
           </div>
@@ -548,11 +748,12 @@
 
     <div class="container footer ">
         <footer class=" container gradient-background row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5  ">
-          <div class="col mb-3">
+          <div class="col mb-3" id="e-smart">
             <!-- <a href="./index.html" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
               <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
             </a> -->
-            <p class="text-body-secondary mt-5">© E-smart</p>
+            <a href="./index.html" > <p class="text-body-secondary mt-5">© E-smart</p></a>
+            
           </div>
       
           <div class="col mb-3">

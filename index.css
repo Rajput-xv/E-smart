@@ -35,6 +35,19 @@
 } */
 
 
+/* #product-main{
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.6) !important ;
+}
+#product{
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.06) !important ;
+}
+#product-sub{
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.06) !important ;
+} */
+#product-sub .pack-card .col{
+    box-shadow: 10px 10px 15px 10px rgba(0,0,0,0.06) !important ;
+}
+
 .hero{
     background: rgb(160, 54, 54);
     height: 60vh;
@@ -159,12 +172,14 @@
 }
 
 .pack-card{
-    padding-left: 0;
+    /* padding-left: 0; */
+    margin-top: 5px !important;
+    margin-bottom: 20px !important ;
     background-color: azure;
 }
 
 .album.card-container{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 .col>.shadow-sm{
@@ -189,6 +204,12 @@
 .card.shadow-sm{
     border: 0 !important;
     padding: 10px;
-    background: transparent !important;
+    /* background: transparent !important; */
 }
 
+#e-smart{
+    font-weight: bold;
+}
+#e-smart a{
+    text-decoration: none ;
+}
