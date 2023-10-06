@@ -46,10 +46,18 @@
 } */
 
 
+.co .shadow-sm {
+    position: relative;
+    
+}
+
+.co .shadow-sm .card-body {
+    position: absolute;
+
+}
 
 .product-image{
-    position: relative;
-    left: 20%;
+    align-self: center;
 }
 
 
