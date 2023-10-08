@@ -18,8 +18,8 @@
   <section class="header " id="nav">
 
     <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
-      <div class="container">
-        <a class="navbar-brand d-md-none" href="#">
+      <div class="container ">
+        <a class="navbar-brand d-md-none" href="./index.html">
           <img src="./icons8-technology-64.svg" alt="E-smart logo" /> 
           E-Smart
         </a>
@@ -29,12 +29,13 @@
               <span class="navbar-toggler-icon"></span>
             </a>
             
-            <ul class="dropdown-menu dropdown-menu-end px-5 box-1" aria-labelledby="navbarDropdown" >
+            <ul class="dropdown-menu dropdown-menu-end px-5 box-1 " aria-labelledby="navbarDropdown" >
               <li><a class="dropdown-item" href="./index.html">Home</a></li>
               <li><a class="dropdown-item" href="#product">Product</a></li>
               <li><a class="dropdown-item" href="#footer-about">Features</a></li>
               <li><a class="dropdown-item" href="#footer-about">About</a></li>
-              <li><a class=""dropdown-item href="./login.html" >Login</a></li>
+              <li><a class="dropdown-item last-cart " href="./cart.html" > <img src="./shopping-cart (1).svg" > </a></li>
+              <li><a class="dropdown-item last-login " href="./login.html" > Login</a></li>
               
             </ul>
           
@@ -58,7 +59,7 @@
               <li class="nav-item product-li" id="product-nav" ><a class="nav-link p-0  " data-bs-toggle="dropdown"  id="navbarDropdown-1" role="button"  aria-expanded="false">
                 Product
                 <ul class="dropdown-menu product dropdown-menu-start px-5 mt-2 " aria-labelledby="navbarDropdown" >
-                  <li><a class="dropdown-item" href="#Smartphone">Smartphones</a></li>
+                  <li><a class="dropdown-item" href="#Smartphone1">Smartphones</a></li>
                   <li><a class="dropdown-item" href="#Laptop">Laptops</a></li>
                   <li><a class="dropdown-item" href="#Television">Televisions</a></li>
                   <li><a class="dropdown-item" href="#Refrigerator">Refrigerators</a></li>
@@ -70,7 +71,7 @@
               <li class="nav-item"><a class="nav-link" href="#footer-about">Features</a></li>
               <li class="nav-item"><a class="nav-link" href="#footer-about">About</a></li>
               <li id="cart" class="nav-item"><a class="nav-link" href="./cart.html">
-                <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" width="24" height="30" fill="white"><circle cx="7" cy="22" r="2"/><circle cx="17" cy="22" r="2"/><path d="M5.654,5,5.391,2.938A3.328,3.328,0,0,0,2.087,0H0V3H2.087a.331.331,0,0,1,.326.3l1.5,11.759A3.327,3.327,0,0,0,7.217,18H20.4L23.974,5ZM18.112,15H7.217a.329.329,0,0,1-.325-.3L6.037,8h14Z"/></svg>
+              <img src="shopping-cart (1).svg" >
               </a></li>
               <form class="col-12 col-lg-auto col-md-auto mb-3 me-lg-3">
                 <div class="input-group">
@@ -140,13 +141,13 @@
         <div class="pack-card row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 " >
           
           
-          <div class="col Smartphones" id="Smartphone" >
+          <div class="col Smartphones" id="Smartphone1" onclick = "window.location.href='productSmartphone.html'">
             <div class="card shadow-sm " >
               <img class="product-image" src="./Smartphones/1/OnePlus-Nord-CE-2-Lite-5G-Mobile-Phones.png" height="250px" width="250px">
               <div class="card-body ">
                 <p class="card-text">OnePlus Nord CE 2 Lite 5G,128 GB,6 GB RAM,Blue Tide,Mobile Phone</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <h3>₹ 1500</h3>
+                  <h3>₹ 16,499</h3>
                   
                   <div class="star" >
                     <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
@@ -170,7 +171,7 @@
               <div class="card-body">
                 <p class="card-text">Tecno Pop 7 Pro 64 GB, 2 GB, Black, <br>Smartphone</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <h3>₹ 1500</h3>
+                  <h3>₹ 5,999</h3>
                   
                   <div class="star" >
                     <img src="./reshot-icon-complete-star-R8YXZ3FU7E-081ac.svg" height="25px" width="25px" >
@@ -209,7 +210,7 @@
           </div>
          
   
-          <div class="col Laptops" id="Laptop" >
+          <div class="col Laptops" id="Laptop" onclick = "window.location.href='productLaptop.html'" >
             <div class="card shadow-sm">
               <img class="product-image" src="./Laptops/1/Dell.jpeg" height="250px" width="250px">
               <div class="card-body">
@@ -275,7 +276,7 @@
           </div>
 
   
-          <div class="col Televisions" id="Televisions" >
+          <div class="col Televisions" id="Televisions" onclick = "window.location.href='productTelevision.html'">
             <div class="card shadow-sm">
               <img class="product-image" src="./Televisions/1/Sony.jpeg" height="250px" width="250px">
               <div class="card-body">
@@ -341,7 +342,7 @@
             </div>
           </div>
 
-          <div class="col Refrigerators" id="Refrigerator"  >
+          <div class="col Refrigerators" id="Refrigerator"  onclick = "window.location.href='productRefrigerator.html'">
             <div class="card shadow-sm " >
               <img class="product-image" src="./Refrigerator/1/LG.jpeg" height="250px" width="250px">
               <div class="card-body ">
@@ -407,7 +408,7 @@
           </div>
 
 
-          <div class="col DSLR-Cameras" id="DSLR-Camera">
+          <div class="col DSLR-Cameras" id="DSLR-Camera" onclick = "window.location.href='productDSLR-Camera.html'">
             <div class="card shadow-sm " >
               <img class="product-image" src="./DSLR-Camera/1/Canon.jpeg" height="250px" width="250px">
               <div class="card-body ">
@@ -474,7 +475,7 @@
           </div>
 
 
-          <div class="col Air-Conditioners" id="Air-Conditioner">
+          <div class="col Air-Conditioners" id="Air-Conditioner" onclick = "window.location.href='productAir-Conditioner.html'">
             <div class="card shadow-sm " >
               <img class="product-image" src="./Air-Conditioners/1/Haier.jpeg" height="250px" width="250px">
               <div class="card-body ">
@@ -637,7 +638,7 @@
           <div class="col mb-3">
             <h5>Appliances</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#Smartphone" class="nav-link p-0 text-body-secondary">Smartphones</a></li>
+              <li class="nav-item mb-2"><a href="#Smartphone1" class="nav-link p-0 text-body-secondary">Smartphones</a></li>
               <li class="nav-item mb-2"><a href="#Laptop" class="nav-link p-0 text-body-secondary">Laptops</a></li>
               <li class="nav-item mb-2"><a href="#Television" class="nav-link p-0 text-body-secondary">Televisions</a></li>
               <li class="nav-item mb-2"><a href="#Refrigerator" class="nav-link p-0 text-body-secondary">Refrigerators</a></li>
